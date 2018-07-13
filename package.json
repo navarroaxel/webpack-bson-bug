@@ -1,0 +1,29 @@
+{
+  "name": "webpack-bson-bug",
+  "version": "0.1.0",
+  "description": "This repo exists to show a bson bug using destructing import with esm",
+  "main": "src/index.js",
+  "dependencies": {
+    "bson": "3.0.0",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.0.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "NODE_ENV=development webpack && node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navarroaxel/webpack-bson-bug.git"
+  },
+  "keywords": [
+    "webpack",
+    "bson"
+  ],
+  "author": "Axel Navarro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/navarroaxel/webpack-bson-bug/issues"
+  },
+  "homepage": "https://github.com/navarroaxel/webpack-bson-bug#readme"
+}
